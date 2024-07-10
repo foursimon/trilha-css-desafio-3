@@ -1,0 +1,103 @@
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 24px 0px 24px;
+    width: 95vw;
+    min-width: 550px;
+    margin: auto;
+}
+
+#conta{
+    width: 34px;
+    border-radius: 50%;
+}
+
+#pesquisa input{
+    width: 26vw;
+    min-width: 100px;
+    height: 40px;
+}
+
+#pesquisa button{
+    position: relative;
+    border: 1px solid #CCCCCC;
+    width: 57px;
+    height: 40px;
+    background-color: #F8F8F8;
+}
+
+.item-H-1 svg, .item-H-3 svg{
+    margin-right: 25px;
+}
+
+#menu{
+    display: inline-flex;
+    flex-direction: column;
+    margin-top:-10px;
+    width: 218px;
+    padding: 24px;
+    height: 968px;
+    gap: 22px;
+}
+
+.item-N{
+    flex: initial;
+}
+
+.item-N-1 span{
+    font-weight: 700;
+}
+
+.item-N span{
+    margin-left: 16px;
+}
+
+main{
+    display: inline-grid;
+    padding: 24px;
+    background-color: #cccccc29;
+    margin: auto;
+    gap: 40px;
+    grid-template: repeat(3, minmax(100px, 1fr)) / repeat(4, minmax(250px, 1fr));
+    position: absolute;
+    top: 90px;
+    left: 274px;
+}
+
+.item-M>img{
+    width: 250px;
+    height: 140px;
+}
+
+.item-M [src*="Avatar"]{
+    width: 42px;
+    height: 42px;
+    display: inline-block;
+    align-self: flex-end;
+    margin: 4px 0px -4px;
+}
+
+.sub-item-M{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: center;
+    width: 250px;
+    height: 97px;
+}
+.titulo{
+    margin: 4px 0px 0px 5px;
+    font-weight: 600;
+    font-size: 14px;
+    white-space: pre-line;
+    align-self: baseline;
+}
+
+.titulo+span{
+    font-weight: 400;
+    font-size: 12px;
+    white-space: pre-line;
+    margin-left: 50px;
+}
+
